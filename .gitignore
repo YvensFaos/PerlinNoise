@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Extra
+*.ipynb_checkpoints
+*.dSYM
