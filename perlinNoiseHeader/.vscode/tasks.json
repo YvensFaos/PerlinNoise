@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [   
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g", 
+                "-o",
+                "perlin.exe",
+                "-O3",
+                "-std=c++17",
+                "*.cpp",
+                "-I/Users/yre03/Dev/Repositories/vcpkg/installed/x64-osx/include",
+                "/Users/yre03/Dev/Repositories/vcpkg/installed/x64-osx/lib/libglfw3.a",
+                "/usr/local/Cellar/freeimage/3.18.0/lib/libfreeimage.a"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
